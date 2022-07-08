@@ -16,7 +16,7 @@ npm i
    Web App Domain:  
    **https://d1fx0q8qxxqklm.cloudfront.net/**
 
-2. _bucket (shouldn't work)_  
+2. _bucket (shouldn't work due to changes in bucket’s policy)_  
    Bucket website endpoint:  
    **http://shop-app-mb.s3-website-us-east-1.amazonaws.com/**
 
