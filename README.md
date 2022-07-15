@@ -10,7 +10,16 @@ node version v12.XX.XX
 
 npm i
 
-## URLs
+## URLsz
+
+## Task 3 (current)
+
+Added _axios_ to get products from mock in aws (in "services" folder) + useEffect in "Products" folder
+
+Web App Domain:  
+ **https://d1pamqutpae0js.cloudfront.net**
+
+## Task 2 (done)
 
 1. _cloudfront (should work)_  
    Web App Domain:  
