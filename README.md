@@ -14,7 +14,7 @@ npm i
 
 1. _cloudfront (should work)_  
    Web App Domain:  
-   **https://d1fx0q8qxxqklm.cloudfront.net/**
+   **https://d1pamqutpae0js.cloudfront.net**
 
 2. _bucket (shouldn't work)_  
    Bucket website endpoint:  
