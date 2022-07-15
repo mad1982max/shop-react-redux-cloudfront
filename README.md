@@ -10,8 +10,6 @@ node version v12.XX.XX
 
 npm i
 
-## URLsz
-
 ## Task 3 (current)
 
 Added _axios_ to get products from mock in aws (in "services" folder) + useEffect in "Products" folder
@@ -21,6 +19,8 @@ Web App Domain:
 
 ## Task 2 (done)
 
+### URLs
+
 1. _cloudfront (should work)_  
    Web App Domain:  
    **https://d1pamqutpae0js.cloudfront.net**
@@ -29,7 +29,7 @@ Web App Domain:
    Bucket website endpoint:  
    **http://shop-app-mb.s3-website-us-east-1.amazonaws.com/**
 
-## Available Scripts
+### Available Scripts
 
 1. build and deploy _new_ app (with/without confirm)  
    **npm run cloudfront:update:build:deploy**  
