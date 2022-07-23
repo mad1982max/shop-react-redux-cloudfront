@@ -10,7 +10,7 @@ import { Product } from "models/Product";
 import { formatAsPrice } from "utils/utils";
 import AddProductToCart from "components/AddProductToCart/AddProductToCart";
 import { productsAPI } from "../../../../services/productsAPI";
-// import productList from "./productList.json";
+import { AxiosResponse } from "axios";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -37,10 +37,10 @@ export default function Products() {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const productList = (await productsAPI.getAll()).data;
+        const { data: productList } = (await productsAPI.getAll()).data;
         setProducts(productList);
       } catch (e) {
-        console.log("-serverError", e);
+        console.log("--serverError", e);
       }
     };
     getProducts();
