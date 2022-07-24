@@ -12,8 +12,8 @@ npm i
 
 ## Task 4 (current)
 
-Added API service for create product
-FE works and receive product list from DB
+- Added API service for create product
+- FE works and receive product list from DB
 
 Web App Domain:  
  **https://d1pamqutpae0js.cloudfront.net**
