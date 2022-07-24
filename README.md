@@ -10,12 +10,17 @@ node version v12.XX.XX
 
 npm i
 
-## Task 3 (current)
+## Task 4 (current)
 
-Added _axios_ to get products from mock in aws (in "services" folder) + useEffect in "Products" folder
+Added API service for create product
+FE works and receive product list from DB
 
 Web App Domain:  
  **https://d1pamqutpae0js.cloudfront.net**
+
+## Task 3
+
+Added _axios_ to get products from mock in aws (in "services" folder) + useEffect in "Products" folder
 
 ## Task 2 (done)
 
